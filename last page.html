@@ -1,0 +1,199 @@
+<html>
+<head>
+  <title>
+    Rate Us
+  </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #ffcce6;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:pink;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:purple;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#003366;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            font-family: Aparajita;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: #ffff61 ;
+        }
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+input[type=submit] {
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  #3385ff;
+}
+
+div {
+    position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<script type="text/javascript">
+function myFunction() {
+  var thank="Thank you";
+  document.getElementById("demo").innerHTML = thank;}
+  
+            var age = prompt("Please enter your age");
+            if(age>=18)
+            document.write("You are an adult <br />");
+            if(age<18)
+            document.write("You are NOT an adult <br />");
+
+</script>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+  <!--
+     Dark Blue #003366 // #000080
+     light blue #008B8B
+     Green #003366
+     golden yellow  #e1b137
+     Dark Pink  #ff3399
+     light pink  #ffcce6
+  -->
+
+<div style="background-color:  #000080 ;padding:15px;text-align:center;">
+  <h1 style="color: #778899;">Tell Us..</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="https://www.instagram.com/" title="Go To Instagram">Instagram </a>
+    <a href="https://www.facebook.com/" title="Go To FaceBook">FaceBook</a>
+    <a href="https://www.linkedin.com/" title="Go To linkedin">Linkedin</a>
+    <a href="https://www.youtube.com/" title="Go To YouTube">YouTube</a>
+  </div>
+
+  <div class="main">
+    <h2 style="color: #000080;">We Always Make Sure You like Our Websit &#128155;</h2>
+    <div style="color: #008B8B;"><label> <input name="best" type="checkbox"
+        value="books"/> Books   </label> <br><br><br>
+    
+     <label> <input name="best" type="checkbox"
+        value="movies " /> Movies  </label><br><br><br>
+     <label> <input name="best" type="checkbox"
+        value="travel " /> Travel </label><br><br><br>
+    
+     <label> <input name="best" type="checkbox"
+        value="programming languages" /> Programming languages</label><br><br><br>
+    
+    
+    <label><input name="best" type="checkbox"
+        value="food " /> Foods <br><br><br></label>
+    
+    <label><input name="best" type="checkbox"
+        value="Artificial Intelligence
+         " /> Artificial Intelligence
+    </label> <br><br><br>
+    
+    <label><input name="best" type="checkbox"
+        value="universities " /> Universities</label><br><br><br>
+    
+    <label><input name="best" type="checkbox"
+        value="applications" /> Applications</label><br></div>
+  </div>
+  <ul>
+    <li style="float:bottom;"><a class="active" href="main.html" title="Go To Home Page">HOME</a></li>
+    
+  </ul>
+
+  <div class="right">
+    <h2 style="color: #e1b137;">About Us</h2>
+    <pre>
+        Name            ID       Major
+    Yara  Awad        0192460     CIS
+    Alaa Alzain       0192434     BIT
+    Shahed Rhahleh    0174181     CIS
+    </pre>
+  </div>
+</div>
+    
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="spain">Spain</option>
+          <option value="russia">Russia</option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="usa">USA</option>
+        </select>
+      
+        <input type="submit" value="Submit" onclick="myFunction()" >
+        <p id="demo"></p>
+      </form>
+        </div>
+    
+<div style="background-color:#3b2626;text-align:center;padding:10px;margin:7px; position:relative; top: 80px;">© copyright reserved</div>
+
+</body>
+</html>
